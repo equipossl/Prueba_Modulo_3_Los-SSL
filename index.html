@@ -40,6 +40,9 @@
   <div class="wrapper">
     <header>
       <div class="wrap">
+        <div class="logo">
+          <a href="#"><img src="images/logo.png" /></a>
+        </div>
 
         <div class="header-top wow fadeInDown" data-wow-delay="0.5s" data-wow-duration="1s">
 
@@ -104,7 +107,7 @@
           <iframe width="960" height="431" class="proyecto" src="https://www.youtube.com/embed/Oq2Gd-ikXno" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
-        <h1>PROYECTO XXX</h1>
+        <h1>SSL BAKERY<br/>EL PAN DEL CODER</h1>
         <!--TEXTO INTRODUCTORIO-->
         <div class="texto-info">
           <h4>EL PROYECTO</h4>
@@ -124,17 +127,18 @@
 
         <div class="box-rut">
           <label>INGRESA TU RUT SIN PUNTOS</label>
-          <input type="text" id="rut1" />
-          <input type="text" id="rut2" />
+          <input type="text" id="rut1" required  pattern="[0-9]+"/>
+          <input type="text" id="rut2" required  pattern="[0-9]+"/>
           <div class="clear"></div>
           <div class="form-group">
             <label>CONTRASEÑA</label>
 
-            <input type="password" required="" placeholder="xxxxxx" name="pass">
-            <a onclick="if (!window.__cfRLUnblockHandlers) return false; myFunctioni()" class="olvidaste">¿Olvidaste tu
+            <input type="password" required="" placeholder="xxxxxx" name="pass" >
+            <a onclick="" class="olvidaste">¿Olvidaste tu
               contraseña?</a>
           </div>
         </div>
+        
         <button>CONSULTAR</button>
         <div class="clear"></div>
       </div>

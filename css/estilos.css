@@ -570,7 +570,13 @@ a.btn.azul:hover{
         float: left;
         width: 60%;
     }
-/*--FIN seccion--*/
+/*--logo--*/
+
+header .logo {
+    display: inline-block;
+    
+    margin-top: 12px;
+}
 
 /*--FOOTER--*/
 footer{
