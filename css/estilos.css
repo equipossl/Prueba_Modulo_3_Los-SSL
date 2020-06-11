@@ -561,7 +561,16 @@ a.btn.azul:hover{
     margin-left: 0;
     margin-right: 0;
 }
-/*--FIN POSTULACION--*/
+
+.wrap-resultados .col-md-3{
+    float: left;
+    width: 40%;
+}
+    .wrap-resultados .col-md-7{
+        float: left;
+        width: 60%;
+    }
+/*--FIN seccion--*/
 
 /*--FOOTER--*/
 footer{
@@ -621,14 +630,37 @@ footer .f1 ul li a:hover{
 }
 
 .f3 h4{
-    font-size: 14px;
-    font-weight: 600;
-    color:#d6e5fa;
-    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #454545;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+p.formulario {
+    font-weight: bold;
+    font-size: 16px;
+    color: #454545;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: left;
+}
+.f3 {
+    padding-top: 20px;
+}
+input[type="submit"] {
+    background-color: #00CDCD;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900px;
+    color: #303952;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 20px 2px;
+    cursor: pointer;
 }
 .f3 .item-contacto{
     position: relative;
-    padding-left: 40px;
     margin-bottom: 10px;
 }
 .f3 .item-contacto .img-contacto{
@@ -643,14 +675,14 @@ footer .f1 ul li a:hover{
 
 .f3 .item-contacto .texto-contacto h5{
     font-size: 14px;
-    color:#d6e5fa;
+    color:#0352A1;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
 }
 .f3 .item-contacto .texto-contacto p{
     font-size: 12px;
-    color:#d6e5fa;
+    color:#1E7509;
     font-weight: normal;
 }
 .logo-footer{
@@ -743,6 +775,17 @@ footer .f1 ul li a:hover{
         text-transform: uppercase;
     }
 
+    .wrap-resultados .col-md-3 {
+        float: left;
+        width: 100%;
+      
+    }
+    .wrap-resultados .col-md-7 {
+        float: left;
+        width: 100%;
+        
+    }
+
    
     footer .f1{
         width: 40%;
@@ -808,7 +851,16 @@ footer .f1 ul li a:hover{
         animation: none !important;
         visibility: visible !important;
     }
-  
+    .wrap-resultados .col-md-3 {
+        float: left;
+        width: 100%;
+      
+    }
+    .wrap-resultados .col-md-7 {
+        float: left;
+        width: 100%;
+        
+    }
 
     h2.titulo{
         font-size: 40px;
@@ -821,6 +873,16 @@ footer .f1 ul li a:hover{
 }
 
 @media (max-width: 640px) {
+    .wrap-resultados .col-md-3 {
+        float: left;
+        width: 100%;
+      
+    }
+    .wrap-resultados .col-md-7 {
+        float: left;
+        width: 100%;
+        
+    }
     header{
         background-image: none;
     }
@@ -849,6 +911,17 @@ footer .f1 ul li a:hover{
     }
 }
 @media (max-width: 480px) {
+
+    .wrap-resultados .col-md-3 {
+        float: left;
+        width: 100%;
+      
+    }
+    .wrap-resultados .col-md-7 {
+        float: left;
+        width: 100%;
+        
+    }
     .wrap,.wrap-interior{
         padding: 0 10px;
     }
@@ -932,3 +1005,48 @@ footer .f1 ul li a:hover{
     border-top: 1px solid #5984d8;
     padding-top: 20px;
 }
+
+/* estilos formulario de contacto */
+
+.selector-css {
+    display: block;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    color: #444;
+    line-height: 1.3;
+    padding: .4em 1.4em .3em .8em;
+    width: 400px;
+    max-width: 100%; 
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.03);
+    border-radius: .3em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+   }
+   .select-css::-ms-expand {
+    display: none;
+   }
+   .select-css:hover {
+    border-color: #888;
+   }
+   .select-css:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222; 
+    outline: none;
+   }
+   .select-css option {
+    font-weight:normal;
+   }
+
+   option { color:#fff; background-color:#000EBE; }
+    option:hover { color:yellow; background-color:red; }
