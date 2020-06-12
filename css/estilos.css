@@ -516,6 +516,7 @@ a.btn.azul:hover{
 }
 .texto-info p{
     line-height: 20px;
+    padding-top: 10px;
 }
 
 .cuadros{
